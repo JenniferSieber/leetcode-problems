@@ -31,7 +31,6 @@
 // };
 
 const isValid = s => {
-  
   const stack = []
   const bracketPairs = {
     '(': ')',
@@ -48,7 +47,6 @@ const isValid = s => {
       }
     }
   }
-  
   return stack.length === 0
 }
 console.log(isValid("()[]{}"))
